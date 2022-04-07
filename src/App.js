@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Test from './Test';
+import { SimpleForm } from './SimpleForm';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           ku Edit <code>src/App.js</code> and save to reload.
         </p>
         <Test></Test>
+        <SimpleForm />
         <a
           className="App-link"
           href="https://reactjs.org"
