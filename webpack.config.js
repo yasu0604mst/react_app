@@ -1,7 +1,7 @@
 module.exports = {
-  entry: './app.js',
+  entry: './src',
   output: {
-    filename: 'out/package_react.js'
+    filename: './out/package_react.js'
   }
 
 }

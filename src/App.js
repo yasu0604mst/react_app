@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Test from './Test';
 import { SimpleForm } from './SimpleForm';
+import { InchToCm } from './InchToCm';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
           ku Edit <code>src/App.js</code> and save to reload.
         </p>
         <Test></Test>
+        <div id="root"></div>
+        
         <SimpleForm />
         <a
           className="App-link"

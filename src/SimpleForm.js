@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button,Container,Row,Col } from 'react-bootstrap';
+import InchToCm from './InchToCm';
 export class SimpleForm extends React.Component {
   constructor(props) {
     super(props)
@@ -24,6 +25,7 @@ export class SimpleForm extends React.Component {
         <input type='text' value={this.state.value} onChange={doChange} />
         <input type='submit' value='送信' />
         <Button>test</Button>
+        <InchToCm></InchToCm>
         <Container>
         <Row>
         <Col xs={3} md={4}>test1</Col>
