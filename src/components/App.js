@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Test from './Test';
-import { SimpleForm } from './SimpleForm';
-import { InchToCm } from './InchToCm';
+import logo from '../logo.svg';
+import '../App.css';
+import Test from '../Test';
+import { SimpleForm } from '../SimpleForm';
+import { InchToCm } from '../InchToCm';
 
 function App() {
   return (
